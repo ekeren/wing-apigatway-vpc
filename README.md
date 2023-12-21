@@ -1,7 +1,7 @@
 # Private Amazon API Gateway Wing Plugin
 
 
-This repo is an example on how you can use Wing's [platform provider](https://www.winglang.io/docs/concepts/platforms#custom platforms)
+This repo is an example on how you can use Wing's (platform provider)[https://www.winglang.io/docs/concepts/platforms#custom platforms]
 in order to put your Amazon API Gateway created via `cloud.Api` and all the AWS Lambda functions inside a VPC.
 
 See [#5057](https://github.com/winglang/wing/issues/5057)
