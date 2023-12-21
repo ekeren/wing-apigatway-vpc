@@ -1,7 +1,7 @@
 bring cloud;
 bring  http;
 bring util;
-let api = new cloud.Api() as "randi1";
+let api = new cloud.Api() as "my-gateway-behind-vpc";
 
 api.get("/dogs", inflight (req) => {
   return {
@@ -17,4 +17,4 @@ new cloud.Function(inflight () => {
   log("status = {res.status}");
   log("body = {res.body}");
   
-}) as "rinda1";
+}) as "consumer";
