@@ -1,4 +1,4 @@
-# AWS VPC Wing Plugin
+# Wing Plugin - Amazon Private API Gateway
 
 This Wing [platform plugin](https://www.winglang.io/docs/concepts/platforms#custom-platforms) deploys
 all API Gateways (`cloud.Api`) and AWS Lambda functions (`cloud.Function`) into a VPC. 
