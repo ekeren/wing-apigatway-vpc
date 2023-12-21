@@ -1,0 +1,16 @@
+{
+  "name": "issue_5057",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apigw-deploy-in-vpc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cdktf/provider-aws": "^18.2.0",
+    "cdktf": "^0.19.2",
+    "winglang": "^0.53.6"
+  }
+}
