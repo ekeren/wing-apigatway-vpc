@@ -1,11 +1,12 @@
 bring cloud;
-bring  http;
+bring http;
 bring util;
+
 let api = new cloud.Api() as "my-gateway-behind-vpc";
 
 api.get("/dogs", inflight (req) => {
   return {
-    body: "woof2",
+    body: "woof",
     status: 200,
   };
 });
@@ -16,5 +17,4 @@ new cloud.Function(inflight () => {
   let res = http.get("{url}/dogs");
   log("status = {res.status}");
   log("body = {res.body}");
-  
 }) as "consumer";
