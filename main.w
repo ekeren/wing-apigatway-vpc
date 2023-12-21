@@ -12,9 +12,11 @@ api.get("/dogs", inflight (req) => {
 });
 
 let url = api.url;
+
 new cloud.Function(inflight () => {
   log("url = {url}");
   let res = http.get("{url}/dogs");
   log("status = {res.status}");
   log("body = {res.body}");
+  return res.body;
 }) as "consumer";
