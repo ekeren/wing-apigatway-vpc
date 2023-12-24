@@ -3,6 +3,7 @@
 This Wing [platform plugin](https://www.winglang.io/docs/concepts/platforms#custom-platforms) deploys
 all API Gateways (`cloud.Api`) and AWS Lambda functions (`cloud.Function`) into a VPC. 
 
+
 See [#5057](https://github.com/winglang/wing/issues/5057)
 
 ## Prerequisites
